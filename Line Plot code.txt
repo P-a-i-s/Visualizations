@@ -1,0 +1,12 @@
+my_xticks = yy
+my_yticks = c1
+plt.xticks(ind,my_xticks)
+#plt.yticks(ind,x2)
+plt.plot(ind,c2, label='Age 6-10 years\n2016')
+plt.plot(ind,x7_data, label='Age 7-13 years\n2016')
+plt.xlabel('Most Populated States in India')
+plt.xticks(rotation=90)
+plt.ylabel('Population in mil')
+plt.legend()
+plt.title('Total Male & Female population from 2011-2016\nAge Groups: 6-10 years and 7-13 years ')
+plt.show()
